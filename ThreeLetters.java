@@ -10,7 +10,7 @@ public class ThreeLetters {
         // Pergunta ao usuário quantas palavras deseja inserir
         System.out.println("Quantas palavras você deseja inserir?");
         int numWords = scanner.nextInt();
-        scanner.nextLine();  // Consome a nova linha deixada pelo nextInt()
+        scanner.nextLine();  // Consome a nova linha deixada entrada do usuário no nextInt()
 
         // Inicializa a lista de palavras
         List<String> words = new ArrayList<>();
